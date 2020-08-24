@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: rgb(18, 72, 116);
+    overflow: hidden;
+  }
+
+  .container{
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid rgb(34, 34, 34);
+    margin: 5rem auto;
+    background: rgb(43, 43, 43); /*replacing with img later*/
+    background-size: cover;
+    position: relative;
+    box-shadow: 1px 2px 60px rgb(44, 44, 44);
+    overflow-x: hidden;
+  }
