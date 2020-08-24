@@ -1,17 +1,32 @@
 body {
     margin: 0;
-    background-color: rgb(18, 72, 116);
+    background-color: rgb(18, 101, 116);
     overflow: hidden;
   }
 
-  .container{
+.container{
     height: 80vh;
     width: 70vw;
-    border: 1px solid rgb(34, 34, 34);
     margin: 5rem auto;
-    background: rgb(43, 43, 43); /*replacing with img later*/
+    background: black;
     background-size: cover;
     position: relative;
     box-shadow: 1px 2px 60px rgb(44, 44, 44);
-    overflow-x: hidden;
-  }
+    overflow: hidden;
+}
+
+.road{
+  height: 700rem;
+  width: 70vw;
+  background: url(/assets/bg3.png);
+  display: block;
+  background-size: 100%;  
+  background-repeat: repeat-y;  
+  position: absolute;
+  animation: down 30s linear infinite;
+}
+
+@keyframes down{
+  100%{transform:translateY(-1700px)}
+
+}
