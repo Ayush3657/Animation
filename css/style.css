@@ -13,6 +13,7 @@ body {
   position: relative;
   box-shadow: 1px 2px 60px rgb(44, 44, 44);
   overflow: hidden;
+  
 }
 
 
@@ -26,3 +27,27 @@ body {
   position: absolute;
   animation: down 30s linear infinite;
 }
+
+.tank{
+  background: url(/assets/tank.png);
+  display: block;
+  position: absolute;
+  width: 70vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 12%; 
+}
+
+.clouds{
+  height: 700rem;
+  width: 70vw;
+  background: url(/assets/clouds.png);
+  display: block;
+  background-size: 100%;  
+  background-repeat: repeat-y;  
+  position: absolute;
+  animation: down 30s linear infinite;
+}
+
+
+
