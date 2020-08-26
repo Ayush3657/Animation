@@ -6,22 +6,15 @@ class Tank {
         this.createTank = function () {
             var tank = document.getElementById('tank');
             tank.style.left = this.x + 'px';
-            tank.style.top = this.y + 'px';
-            
-            road.appendChild(tank);
+            tank.style.top = this.y + 'px';                        
             return tank;
         };
 
         this.element = this.createTank();
-
         this.updatePositionX = function (offset) {
             this.x += offset;
             this.element.style.left = this.x + 'px';
-        };
-
-        this.str = function () {
-            return this.posx;
-        };
+        };    
     }
 }
 
@@ -32,6 +25,7 @@ var cloudsInterval = setInterval(function(){
 },10);
 
 var tank = new Tank(200);
+
 var increment=0;
 
 var backgroundInterval = setInterval(function(){
