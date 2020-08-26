@@ -45,7 +45,7 @@ body {
   display: block;
   background-size: 100%;  
   background-repeat: repeat-y;  
-  position: relative;
+  position: absolute;
   filter: drop-shadow(5px 10px 3px #333333);
 }
 

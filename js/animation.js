@@ -25,13 +25,18 @@ class Tank {
     }
 }
 
+var inc=0;
+var cloudsInterval = setInterval(function(){
+  cloud.style.backgroundPosition = '0px '+inc+'px';
+  inc += 1.1;
+},10);
 
 var tank = new Tank(200);
 var increment=0;
 
 var backgroundInterval = setInterval(function(){
   road.style.backgroundPosition = '0px '+increment+'px';
-  cloud.style.backgroundPosition = '0px '+increment+'px';
+  
   increment += 1;
 },10);
 
