@@ -12,8 +12,7 @@ body {
   background-size: cover;
   position: relative;
   box-shadow: 1px 2px 60px rgb(44, 44, 44);
-  overflow: hidden;
-  
+  overflow: hidden; 
 }
 
 
@@ -25,7 +24,7 @@ body {
   background-size: 100%;  
   background-repeat: repeat-y;  
   position: absolute;
-  animation: down 30s linear infinite;
+  
 }
 
 .tank{
