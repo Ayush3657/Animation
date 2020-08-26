@@ -20,7 +20,7 @@ body {
 .road{
   height: 700rem;
   width: 100%;
-  background: url(/assets/bg3.png);
+  background: url(/assets/bg.png);
   display: block;
   background-size: 100%;  
   background-repeat: repeat-y;  
