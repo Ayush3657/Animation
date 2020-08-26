@@ -28,13 +28,12 @@ class Tank {
 
 var tank = new Tank(200);
 var increment=0;
+
 var backgroundInterval = setInterval(function(){
   road.style.backgroundPosition = '0px '+increment+'px';
   cloud.style.backgroundPosition = '0px '+increment+'px';
   increment += 1;
 },10);
-
-
 
 document.onkeydown = function(event){
   switch (event.keyCode) {

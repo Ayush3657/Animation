@@ -19,7 +19,7 @@ body {
 
 .road{
   height: 700rem;
-  width: 70vw;
+  width: 100%;
   background: url(/assets/bg3.png);
   display: block;
   background-size: 100%;  
@@ -45,8 +45,8 @@ body {
   display: block;
   background-size: 100%;  
   background-repeat: repeat-y;  
-  position: absolute;
-  animation: down 30s linear infinite;
+  position: relative;
+  filter: drop-shadow(5px 10px 3px #333333);
 }
 
 
