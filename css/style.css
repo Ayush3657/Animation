@@ -29,7 +29,7 @@ body {
 }
 
 .tank{
-  background: url(/assets/tank.png);
+  background: url(/assets/tank.gif);
   display: block;
   position: absolute;
   width: 70vw;
